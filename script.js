@@ -6,7 +6,7 @@ function calc() {
         var nf = ((((av1 + av2) / 2) + av3) / 2);
     }
     else {
-        alert("Somentes notas entre 0 e 10 são aceitas.")
+        alert("Somentes notas entre 0 e 10 são aceitas.");
     }
     document.getElementById("nf").value = nf.toFixed(1);
     if ((((av1 + av2) / 2)) < 4) {
