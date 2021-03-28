@@ -16,9 +16,9 @@ function calc() {
         alert("Reprovado, pois a nota da AV3 foi menor que 4,0.");
     }
     else if (nf < 5) {
-        alert("Reprovado, pois a Nota Final foi menor que 5,0.");       
+        alert("Reprovado, pois a Nota Final foi menor que 5,0.");
     }
     else {
-        alert("Parabéns, você foi aprovado com nota "+nf.toFixed(1)+"!");
+        alert("Parabéns, você foi aprovado com nota " + nf.toFixed(1) + "!");
     }
 }
