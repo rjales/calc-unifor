@@ -3,7 +3,7 @@ function calc() {
     let av2 = parseFloat(document.getElementById("av2").value);
     let av3 = parseFloat(document.getElementById("av3").value);
     if (av1 >= 0 && av1 <= 10 && av2 >= 0 && av2 <= 10 && av3 >= 0 && av3 <= 10) {
-        let nf = ((((av1 + av2) / 2) + av3) / 2);
+        var nf = ((((av1 + av2) / 2) + av3) / 2);
     }
     else {
         alert("Somentes notas entre 0 e 10 são aceitas.");
