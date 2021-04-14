@@ -13,13 +13,11 @@ function calcularMedia() {
     
     if ((((av1 + av2) / 2)) < 4) {
         alert("Reprovado, pois a média entre AV1 e AV2 foi menor que 4,0.");
-    }
-    else if (av3 < 4) {
+    } else if (av3 < 4) {
         alert("Reprovado, pois a nota da AV3 foi menor que 4,0.");
-    }
-    else if (nf < 5) {
+    } else if (nf < 5) {
         alert("Reprovado, pois a Nota Final foi menor que 5,0.");
     } else {
-        alert("Parabéns, você foi aprovado com nota " + nf.toFixed(1) + "!");
+        alert(`Parabéns, você foi aprovado com nota ${nf.toFixed(1)}!`);
     }
 }
