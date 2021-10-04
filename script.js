@@ -9,15 +9,15 @@ function calcularMedia() {
         alert("Somentes notas entre 0 e 10 são aceitas.");
     }
 
-    document.getElementById("nf").value = nf.toFixed(1);
+    // document.getElementById("resultado").innerHTML = nf.toFixed(1); // Aqui pega-se o valor da variável "nf" e coloca na div com id "resultado" no HTML
     
     if ((((av1 + av2) / 2)) < 4) {
-        alert("Reprovado, pois a média entre AV1 e AV2 foi menor que 4,0.");
+        document.getElementById("resultado").innerHTML = "Reprovado, pois a média entre AV1 e AV2 foi menor que 4,0.";
     } else if (av3 < 4) {
-        alert("Reprovado, pois a nota da AV3 foi menor que 4,0.");
+        document.getElementById("resultado").innerHTML = "Reprovado, pois a nota da AV3 foi menor que 4,0.";
     } else if (nf < 5) {
-        alert("Reprovado, pois a Nota Final foi menor que 5,0.");
+        document.getElementById("resultado").innerHTML = "Reprovado, pois a média final foi menor que 5,0.";
     } else {
-        alert(`Parabéns, você foi aprovado com nota ${nf.toFixed(1)}!`);
+        document.getElementById("resultado").innerHTML = `Parabéns, você foi aprovado com nota ${nf.toFixed(1)}!`;
     }
 }
