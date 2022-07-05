@@ -8,8 +8,6 @@ function calcularMedia() {
     } else {
         alert("Somentes notas entre 0 e 10 são aceitas.");
     }
-
-    // document.getElementById("resultado").innerHTML = nf.toFixed(1); // Aqui pega-se o valor da variável "nf" e coloca na div com id "resultado" no HTML
     
     if ((((av1 + av2) / 2)) < 4) {
         document.getElementById("resultado").innerHTML = "Reprovado, pois a média entre AV1 e AV2 foi menor que 4,0.";
