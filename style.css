@@ -5,9 +5,10 @@ body {
 
 .container {
   width: 40%;
-  margin: 0 auto;
+  margin: 20px auto;
   border: 2px solid black;
   background-color: aliceblue;
+  padding-bottom: auto;
 }
 
 h1 {

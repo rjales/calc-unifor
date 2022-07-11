@@ -1,2 +1,2 @@
-# calc-unifor
- Site desenvolvido com fins de aprendizagem
+# Calculadora de média Unifor
+Site desenvolvido com fins de aprendizagem
