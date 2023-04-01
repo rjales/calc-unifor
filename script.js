@@ -1,12 +1,12 @@
 function calcularMedia() {
-    let av1 = parseFloat(document.getElementById("av1").value);
-    let av2 = parseFloat(document.getElementById("av2").value);
-    let av3 = parseFloat(document.getElementById("av3").value);
+    let av1 = parseFloat(document.getElementById("av1").value.replace(",", "."));
+    let av2 = parseFloat(document.getElementById("av2").value.replace(",", "."));
+    let av3 = parseFloat(document.getElementById("av3").value.replace(",", "."));
 
     if (av1 >= 0 && av1 <= 10 && av2 >= 0 && av2 <= 10 && av3 >= 0 && av3 <= 10) {
         var notaFinal = ((((av1 + av2) / 2) + av3) / 2);
     } else {
-        alert("Somente notas entre 0 e 10 são aceitas.");
+        alert("Somente números entre 0 e 10 são aceitos.");
     }
 
     if ((((av1 + av2) / 2)) < 4) {
